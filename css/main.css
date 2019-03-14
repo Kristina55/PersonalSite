@@ -1,0 +1,177 @@
+html, body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 100%;
+}
+
+.wrap {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+/* Header */
+.mineNavStyle{
+    height: 64px;
+    background-color: #ffffff!important;
+    font-family: PT Serif,serif;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.myLinkStyle {
+    cursor: pointer;
+    color: var(--grey);
+    margin-left: 12px;
+    transition: color .2s;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: PT Serif,serif;
+    
+}
+
+
+.mineHeaderStyle {
+    position: relative;
+    height: 850px;
+    background-color:#fbfbfb;
+    
+
+}
+
+.cover {
+    position: absolute;
+    padding-left: 170px;
+    display: flex;
+    align-items: center;
+    min-height: calc(100vh - 134px);
+}
+
+
+.nameStyle {
+    font-size: 56px;
+    font-weight: bold;
+    font-family: PT Serif,serif;
+}
+
+
+.imagStyle {
+    width:100%;
+    max-height: 850px;
+}
+
+
+/* About */
+
+.aboutMeHeight {
+    height: 650px;;
+}
+
+.margin_top{
+    margin-top: 70px;
+}
+.minePicStyle {
+    text-align: center;
+}
+.imgStyle{
+   margin-top: 30px;
+   max-width: 300px;
+   max-height: 400px;
+
+}
+
+
+.mineTextStyle{
+    max-width: 420px;
+    align-items: center;
+    display: flex;
+}
+
+
+.actualText{
+    line-height: 1.7;
+    margin-block-start: 3.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color:rgba(0,0,0,.5);
+    font-weight: 400;
+    font-size:24px;
+    letter-spacing: -.2px;
+    font-family: PT Serif,serif;
+}
+
+
+
+.myButton{
+    font-family: PT Serif,serif;
+    border: 2px solid #8a3a62;
+    font-weight: 600;
+    color: #8a3a62;
+    padding: 5px;
+    font-size: 14px;
+    background: transparent;
+  
+}
+
+
+.myButton:hover {
+    text-decoration: none;
+    color:rgba(0,0,0,.5);
+
+}
+
+/* Contact */
+
+.contactHeight {
+    height: 550px;
+    background-image: linear-gradient(-133deg,#ececec,#ef6a87);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: calc(100vh - 148px);
+    position: relative;
+}
+
+.footerContent {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 500px;
+}
+.myContactStyle{
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-size: 56px;
+    line-height: 1.4;
+    font-family: PT Serif,serif;
+}
+
+.myContactParagraph{
+    color: hsla(0,0%,100%,.75);
+    margin-bottom: 15px;
+    line-height: 32px;
+    letter-spacing: -.3px;
+    font-family: PT Serif,serif;
+    font-size:18px;
+}
+
+.socialHeight {
+    background-color: #f1f1f1;
+    text-align: center;
+    height: 55px;
+}
+
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.iconPadding {
+    text-decoration: none;
+  padding:10px;
+}
