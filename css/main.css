@@ -4,7 +4,6 @@ html, body {
 }
 
 .wrap {
-    width: 1500px;
     margin: 0 auto;
 }
 
@@ -174,4 +173,19 @@ html, body {
 .iconPadding {
     text-decoration: none;
   padding:10px;
+}
+
+
+@media only screen and (max-device-width: 568px) {
+
+
+.cover {
+    min-height: calc(40vh - 134px);
+}
+
+
+.contactHeight {
+    min-height: calc(40vh - 148px);
+}
+
 }
